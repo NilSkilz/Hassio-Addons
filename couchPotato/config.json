@@ -1,0 +1,30 @@
+{
+  "name": "Couch Potato",
+  "version": "latest",
+  "slug": "nzbget_couch_potato",
+  "description": "Download movies automatically, easily and in the best quality as soon as they are available",
+  "url": "https://github.com/NilSkilz/Hassio-Addons/couchpotato",
+  "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "i386"
+  ],
+  "ports": {
+    "8083/tcp": 8083
+  },
+  "map": [
+    "backup:rw",
+    "share:rw",
+    "ssl"
+  ],
+  "webui": "http://[HOST]:[PORT:8083]",
+  "boot": "auto",
+  "environment": {
+    "PUID": "0",
+    "PGID": "0"
+  },
+  "options": {},
+  "schema": {}
+}
