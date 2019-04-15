@@ -1,8 +1,8 @@
 {
-  "name": "Nzbget",
+  "name": "SickBeard",
   "version": "latest",
-  "slug": "nzbget_docker",
-  "description": "Nzbget add-on based on the prebuilt docker image from linuxserver",
+  "slug": "sickbeard_docker",
+  "description": "The ultimate PVR application that searches for and manages your TV shows Automatically finds new and old episodes for you and it works with your current download client!",
   "url": "https://github.com/NilSkilz/Hassio-Addons/nzbget",
   "startup": "services",
   "arch": [
@@ -12,14 +12,14 @@
     "i386"
   ],
   "ports": {
-    "6789/tcp": 6789
+    "8081/tcp": 8081
   },
   "map": [
     "backup:rw",
     "share:rw",
     "ssl"
   ],
-  "webui": "http://[HOST]:[PORT:6789]",
+  "webui": "http://[HOST]:[PORT:8081]",
   "boot": "auto",
   "environment": {
     "PUID": "0",
