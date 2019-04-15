@@ -1,4 +1,4 @@
-# Marcelveldt's Hassio Add-ons: Radarr
+# Robs's Hassio Add-ons: Radarr
 
 ## About
 
@@ -20,7 +20,7 @@ comparison to installing any other Hass.io add-on.
 
 ## Configuration
 
-Webui can be found at <your-ip>:7878 
+Webui can be found at <your-ip>:7878
 
 By default hassio folders backup, share and ssl are available within the addon.
 You can use the share folder to access/store your media files.
